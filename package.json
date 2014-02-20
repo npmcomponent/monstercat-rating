@@ -1,0 +1,25 @@
+{
+  "name": "monstercat-rating",
+  "description": "Rating stars",
+  "version": "0.1.2",
+  "keywords": [
+    "rating",
+    "stars"
+  ],
+  "main": "index.js",
+  "styles": [
+    "stars.css"
+  ],
+  "dependencies": {
+    "monstercat-jade-runtime": "git://github.com/npmcomponent/monstercat-jade-runtime.git",
+    "stagas-hover": "git://github.com/npmcomponent/stagas-hover.git",
+    "component-range": "git://github.com/npmcomponent/component-range.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-bind": "git://github.com/npmcomponent/component-bind.git",
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "component-domify": "git://github.com/npmcomponent/component-domify.git"
+  },
+  "license": "MIT"
+}

@@ -1,12 +1,12 @@
 
-var domify = require('domify');
-var hover = require('hover');
-var each = require('each');
-var events = require('event');
-var bind = require('bind');
-var Emitter = require('emitter');
-var classes = require('classes');
-var exclrange = require('range');
+var domify = require('component-domify');
+var hover = require('stagas-hover');
+var each = require('component-each');
+var events = require('component-event');
+var bind = require('component-bind');
+var Emitter = require('component-emitter');
+var classes = require('component-classes');
+var exclrange = require('component-range');
 var range = function(a, b){ return exclrange(a, b, true); };
 
 module.exports = Rating;

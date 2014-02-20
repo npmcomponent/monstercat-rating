@@ -1,4 +1,4 @@
-var jade = require('jade-runtime');
+var jade = require('monstercat-jade-runtime');
 module.exports = 
 function anonymous(locals, attrs, escape, rethrow, merge) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
